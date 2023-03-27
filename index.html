@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="super,blog,actualité,news,décoration,lorem">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon Super Blog</title>
+</head>
+
+<body>
+    <header role="banner">
+        <div id="login-modal">
+            <div id="login-modal-content">
+                <div id="login-modal-header">
+                    <img src="assets/close.png" id="login-modal-close-btn" alt="Fermer la fenêtre">
+                </div>
+                <div id="login-modal-heading">
+                    Connectez-vous !
+                </div>
+                <form method="post" enctype="application/x-www-form-urlencoded" id="login-form">
+                    <div class="form-row">
+                        <img class="form-img" src="assets/01.png" alt="email">
+                        <label for="email">Email</label>
+                        <input type="email" name="email">
+                    </div>
+                    <div class="form-row">
+                        <img class="form-img" src="assets/02.png" alt="mot de passe">
+                        <input type="password" name="password" aria-label="Mot de passe"  autocomplete="current-password">
+                    </div>  
+                        <button class="btn" id="login-submit" >Valider</button>
+
+                </form>
+            </div>
+        </div>
+        
+            <nav id="navbar">
+                <button class="btn" id="login-btn" >Se connecter</button>  
+            </nav>
+    </header>
+
+    <main>
+        <h1>
+            Mon super blog
+        </h1>
+        <img src="assets/welcome.png" width="1000px" style="margin-bottom: 16px" alt="Bienvenue">
+        <div class="article"  role="region" aria-label="Article">
+            <h2>
+                Article #1
+            </h2>
+            <div class="article-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+                repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+                adipisci? Minus sed dolorem ipsam commodi!
+            </div>
+        </div>
+        <div class="article"  role="region" aria-label="Article">
+            <h2>
+                Article #2
+            </h2>
+            <div class="article-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+                repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+                adipisci? Minus sed dolorem ipsam commodi!
+            </div>
+        </div>
+        <div class="article"  role="region" aria-label="Article">
+            <h2>
+                Article #3
+            </h2>
+            <div class="article-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos consequatur neque inventore
+                repellat perspiciatis, ipsam itaque asperiores adipisci pariatur accusamus soluta nulla vel. Vitae,
+                adipisci? Minus sed dolorem ipsam commodi!
+            </div>
+        </div>
+    </main>
+    <footer>
+        <button class="custom-button" onclick="triggerAction()">Click me!</button>   
+    </footer>
+    <script src="script.js" type="application/javascript"></script>
+</body>
+
+</html>
+
+
+
+    
